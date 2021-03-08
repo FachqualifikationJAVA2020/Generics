@@ -12,7 +12,7 @@ public class Flasche<T> {
         return (inhalt == null);
     }
 
-    public void fuellen(Getraenk g) {
+    public void fuellen(T g) {
         inhalt = (T) g;
     }
 
