@@ -1,6 +1,6 @@
 package de.thunderfrog;
 
-public class Flasche<T> {
+public class Flasche<T extends  Getraenk> {
 
     private T inhalt = null;
 
